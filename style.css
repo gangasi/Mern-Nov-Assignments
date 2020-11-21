@@ -1,0 +1,26 @@
+ a{
+    text-decoration: none;
+    color: rgb(132, 0, 255);
+}  
+  #header.masthead img {
+    float: left;
+    max-width: width 100px; 
+    height: auto;
+  }
+  
+  #header.masthead h1 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+
+  #intro{
+    margin: 2px auto;
+    border: 2px dashed black;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+
+  }
+
+  
