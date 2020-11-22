@@ -1,0 +1,105 @@
+#header.masthead img {
+    float: left;
+    max-width: width 100px;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: limegreen;
+    font-style: oblique;
+}
+
+.centered:hover {
+    color: blue;
+    /*Text-decoration: underline*/
+}
+
+
+/* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#intro #aboutme {
+    margin: 1S0px auto;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Color change for heading */
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 25px;
+    font-family: "Lucida Console", Courier, monospace;
+    color: blue;
+}
+
+a.h1,
+a.h2,
+a.h3,
+a.h4 :hover {
+    color: red;
+}
+
+
+/*Footer changes */
+
+.content-footer {
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #73A8C2;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+
+/* Bordered form */
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover {
+    Background: orange;
+    Text-decoration: underline
+}
