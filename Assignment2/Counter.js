@@ -1,32 +1,28 @@
 import React from "react";
-import "./App.css";
-
-class App extends React.Component {
-  render() {
-    return (
-      <div className="card">
-        <Counter />
-      </div>
-    );
-  }
-}
 
 class Counter extends React.Component {
-  state = {
-    count: 0
-  };
-  handleClick = () => {
-        this.setState(({ count }) => ({
+  constructor(props) {
+    super(props);
+    this.state = {
+      bgColor: ""
+    }
+  }
 
-      count: count + 1
-    }));
-  };
+
+  boxClick = (e) => {
+    this.setState({
+      bgColor: "red"
+    })
+  }
 
   render() {
     return (
-      <p onClick={this.handleClick}>Counter:{this.state.count}</p>
-
-
+      <div>
+        <p style= {{backgroundColor: this.state.bgColor}}
+           onClick={this.boxClick}></p>
+        </div>
     );
   }
 }
+
+export default Counter;
