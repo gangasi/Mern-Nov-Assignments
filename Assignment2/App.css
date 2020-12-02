@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card {
+  font-family: sans-serif;
+  text-align: center;
+  
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 14px 18px 0 rgba(0,0,0,0.12);
+  transition: 0.5s;
+  height:300px;
+  width: 300px;
+}
+
+
+/* Add some padding inside the card container */
+.container {
+  padding: 4px 16px;
+}
+
